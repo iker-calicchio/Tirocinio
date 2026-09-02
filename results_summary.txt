@@ -1,0 +1,368 @@
+====================================================
+NASA C-MAPSS - RISULTATI COMPLETI
+====================================================
+
+Modelli utilizzati:
+- Linear Regression
+- Decision Tree
+- Random Forest
+
+Cross-validation: 5-fold GroupKFold
+Grouping: motore (unit)
+Ogni motore rimane interamente nello stesso fold.
+
+====================================================
+RISULTATI PER DATASET
+====================================================
+
+
+******** FD001 ********
+
+
+--- sensors_only ---
+
+Modello: Linear Regression
+  CV MAE   = 34.3339 +/- 1.8766
+  CV RMSE  = 44.8883 +/- 3.1514
+  Test MAE = 25.5363
+  Test RMSE = 31.9498
+  Baseline Test MAE = 40.8793
+  Baseline Test RMSE = 52.6249
+
+Modello: Decision Tree
+  CV MAE   = 42.3189 +/- 0.9219
+  CV RMSE  = 60.4210 +/- 0.7525
+  Test MAE = 35.4200
+  Test RMSE = 49.7974
+  Baseline Test MAE = 40.8793
+  Baseline Test RMSE = 52.6249
+
+Modello: Random Forest
+  CV MAE   = 30.5790 +/- 1.2547
+  CV RMSE  = 43.1905 +/- 1.6699
+  Test MAE = 24.4062
+  Test RMSE = 33.5533
+  Baseline Test MAE = 40.8793
+  Baseline Test RMSE = 52.6249
+
+
+--- sensors_plus_settings ---
+
+Modello: Linear Regression
+  CV MAE   = 34.3371 +/- 1.8818
+  CV RMSE  = 44.8938 +/- 3.1552
+  Test MAE = 25.5918
+  Test RMSE = 32.0411
+  Baseline Test MAE = 40.8793
+  Baseline Test RMSE = 52.6249
+
+Modello: Decision Tree
+  CV MAE   = 42.6159 +/- 0.8866
+  CV RMSE  = 60.8243 +/- 0.8206
+  Test MAE = 36.5300
+  Test RMSE = 52.4941
+  Baseline Test MAE = 40.8793
+  Baseline Test RMSE = 52.6249
+
+Modello: Random Forest
+  CV MAE   = 30.6046 +/- 1.2506
+  CV RMSE  = 43.1918 +/- 1.6845
+  Test MAE = 24.8185
+  Test RMSE = 33.9615
+  Baseline Test MAE = 40.8793
+  Baseline Test RMSE = 52.6249
+
+
+******** FD002 ********
+
+
+--- sensors_only ---
+
+Modello: Linear Regression
+  CV MAE   = 34.7148 +/- 0.7634
+  CV RMSE  = 45.1135 +/- 1.1004
+  Test MAE = 27.5247
+  Test RMSE = 33.9241
+  Baseline Test MAE = 50.8632
+  Baseline Test RMSE = 60.1623
+
+Modello: Decision Tree
+  CV MAE   = 44.7164 +/- 0.6324
+  CV RMSE  = 62.3720 +/- 0.7425
+  Test MAE = 31.4015
+  Test RMSE = 46.6588
+  Baseline Test MAE = 50.8632
+  Baseline Test RMSE = 60.1623
+
+Modello: Random Forest
+  CV MAE   = 31.9430 +/- 1.0252
+  CV RMSE  = 43.8914 +/- 1.3286
+  Test MAE = 23.1414
+  Test RMSE = 31.4936
+  Baseline Test MAE = 50.8632
+  Baseline Test RMSE = 60.1623
+
+
+--- sensors_plus_settings ---
+
+Modello: Linear Regression
+  CV MAE   = 34.7093 +/- 0.7630
+  CV RMSE  = 45.1133 +/- 1.1016
+  Test MAE = 27.5399
+  Test RMSE = 33.9315
+  Baseline Test MAE = 50.8632
+  Baseline Test RMSE = 60.1623
+
+Modello: Decision Tree
+  CV MAE   = 44.7978 +/- 0.5579
+  CV RMSE  = 62.4342 +/- 0.6926
+  Test MAE = 31.7683
+  Test RMSE = 47.0521
+  Baseline Test MAE = 50.8632
+  Baseline Test RMSE = 60.1623
+
+Modello: Random Forest
+  CV MAE   = 31.9502 +/- 1.0225
+  CV RMSE  = 43.8845 +/- 1.3442
+  Test MAE = 23.2286
+  Test RMSE = 31.5069
+  Baseline Test MAE = 50.8632
+  Baseline Test RMSE = 60.1623
+
+
+******** FD003 ********
+
+
+--- sensors_only ---
+
+Modello: Linear Regression
+  CV MAE   = 47.6055 +/- 1.2830
+  CV RMSE  = 64.0203 +/- 1.9844
+  Test MAE = 47.0395
+  Test RMSE = 57.0573
+  Baseline Test MAE = 63.2709
+  Baseline Test RMSE = 75.1801
+
+Modello: Decision Tree
+  CV MAE   = 58.2298 +/- 2.8331
+  CV RMSE  = 85.3806 +/- 4.7197
+  Test MAE = 36.6900
+  Test RMSE = 55.2189
+  Baseline Test MAE = 63.2709
+  Baseline Test RMSE = 75.1801
+
+Modello: Random Forest
+  CV MAE   = 43.7898 +/- 3.3806
+  CV RMSE  = 64.8808 +/- 4.7986
+  Test MAE = 32.9925
+  Test RMSE = 45.1038
+  Baseline Test MAE = 63.2709
+  Baseline Test RMSE = 75.1801
+
+
+--- sensors_plus_settings ---
+
+Modello: Linear Regression
+  CV MAE   = 47.6114 +/- 1.2862
+  CV RMSE  = 64.0276 +/- 1.9893
+  Test MAE = 47.0627
+  Test RMSE = 57.0762
+  Baseline Test MAE = 63.2709
+  Baseline Test RMSE = 75.1801
+
+Modello: Decision Tree
+  CV MAE   = 58.6819 +/- 2.7340
+  CV RMSE  = 85.7481 +/- 5.0402
+  Test MAE = 37.6300
+  Test RMSE = 54.7994
+  Baseline Test MAE = 63.2709
+  Baseline Test RMSE = 75.1801
+
+Modello: Random Forest
+  CV MAE   = 43.6994 +/- 3.4506
+  CV RMSE  = 64.7175 +/- 4.8368
+  Test MAE = 33.2764
+  Test RMSE = 45.4736
+  Baseline Test MAE = 63.2709
+  Baseline Test RMSE = 75.1801
+
+
+******** FD004 ********
+
+
+--- sensors_only ---
+
+Modello: Linear Regression
+  CV MAE   = 46.3128 +/- 1.3468
+  CV RMSE  = 60.5584 +/- 3.1689
+  Test MAE = 38.5324
+  Test RMSE = 47.6456
+  Baseline Test MAE = 60.0352
+  Baseline Test RMSE = 71.8279
+
+Modello: Decision Tree
+  CV MAE   = 56.3211 +/- 1.1490
+  CV RMSE  = 80.1641 +/- 1.7937
+  Test MAE = 45.7097
+  Test RMSE = 69.5547
+  Baseline Test MAE = 60.0352
+  Baseline Test RMSE = 71.8279
+
+Modello: Random Forest
+  CV MAE   = 40.9624 +/- 2.5740
+  CV RMSE  = 57.3196 +/- 4.5218
+  Test MAE = 31.3075
+  Test RMSE = 42.6775
+  Baseline Test MAE = 60.0352
+  Baseline Test RMSE = 71.8279
+
+
+--- sensors_plus_settings ---
+
+Modello: Linear Regression
+  CV MAE   = 46.1250 +/- 1.3492
+  CV RMSE  = 60.3431 +/- 3.1484
+  Test MAE = 38.7393
+  Test RMSE = 47.7590
+  Baseline Test MAE = 60.0352
+  Baseline Test RMSE = 71.8279
+
+Modello: Decision Tree
+  CV MAE   = 56.4160 +/- 1.5501
+  CV RMSE  = 80.2800 +/- 2.2750
+  Test MAE = 43.5323
+  Test RMSE = 65.3811
+  Baseline Test MAE = 60.0352
+  Baseline Test RMSE = 71.8279
+
+Modello: Random Forest
+  CV MAE   = 40.9711 +/- 2.5844
+  CV RMSE  = 57.3190 +/- 4.5389
+  Test MAE = 30.9905
+  Test RMSE = 42.4170
+  Baseline Test MAE = 60.0352
+  Baseline Test RMSE = 71.8279
+
+
+====================================================
+CONFRONTO: SENSORI vs SENSORI + SETTINGS
+====================================================
+
+
+FD001
+
+Linear Regression
+  Test MAE - solo sensori: 25.5363
+  Test MAE - sensori + settings: 25.5918
+  Miglioramento MAE: -0.0555
+  Test RMSE - solo sensori: 31.9498
+  Test RMSE - sensori + settings: 32.0411
+  Miglioramento RMSE: -0.0913
+
+Decision Tree
+  Test MAE - solo sensori: 35.4200
+  Test MAE - sensori + settings: 36.5300
+  Miglioramento MAE: -1.1100
+  Test RMSE - solo sensori: 49.7974
+  Test RMSE - sensori + settings: 52.4941
+  Miglioramento RMSE: -2.6967
+
+Random Forest
+  Test MAE - solo sensori: 24.4062
+  Test MAE - sensori + settings: 24.8185
+  Miglioramento MAE: -0.4123
+  Test RMSE - solo sensori: 33.5533
+  Test RMSE - sensori + settings: 33.9615
+  Miglioramento RMSE: -0.4082
+
+FD002
+
+Linear Regression
+  Test MAE - solo sensori: 27.5247
+  Test MAE - sensori + settings: 27.5399
+  Miglioramento MAE: -0.0151
+  Test RMSE - solo sensori: 33.9241
+  Test RMSE - sensori + settings: 33.9315
+  Miglioramento RMSE: -0.0074
+
+Decision Tree
+  Test MAE - solo sensori: 31.4015
+  Test MAE - sensori + settings: 31.7683
+  Miglioramento MAE: -0.3668
+  Test RMSE - solo sensori: 46.6588
+  Test RMSE - sensori + settings: 47.0521
+  Miglioramento RMSE: -0.3933
+
+Random Forest
+  Test MAE - solo sensori: 23.1414
+  Test MAE - sensori + settings: 23.2286
+  Miglioramento MAE: -0.0872
+  Test RMSE - solo sensori: 31.4936
+  Test RMSE - sensori + settings: 31.5069
+  Miglioramento RMSE: -0.0133
+
+FD003
+
+Linear Regression
+  Test MAE - solo sensori: 47.0395
+  Test MAE - sensori + settings: 47.0627
+  Miglioramento MAE: -0.0232
+  Test RMSE - solo sensori: 57.0573
+  Test RMSE - sensori + settings: 57.0762
+  Miglioramento RMSE: -0.0189
+
+Decision Tree
+  Test MAE - solo sensori: 36.6900
+  Test MAE - sensori + settings: 37.6300
+  Miglioramento MAE: -0.9400
+  Test RMSE - solo sensori: 55.2189
+  Test RMSE - sensori + settings: 54.7994
+  Miglioramento RMSE: 0.4196
+
+Random Forest
+  Test MAE - solo sensori: 32.9925
+  Test MAE - sensori + settings: 33.2764
+  Miglioramento MAE: -0.2839
+  Test RMSE - solo sensori: 45.1038
+  Test RMSE - sensori + settings: 45.4736
+  Miglioramento RMSE: -0.3698
+
+FD004
+
+Linear Regression
+  Test MAE - solo sensori: 38.5324
+  Test MAE - sensori + settings: 38.7393
+  Miglioramento MAE: -0.2068
+  Test RMSE - solo sensori: 47.6456
+  Test RMSE - sensori + settings: 47.7590
+  Miglioramento RMSE: -0.1133
+
+Decision Tree
+  Test MAE - solo sensori: 45.7097
+  Test MAE - sensori + settings: 43.5323
+  Miglioramento MAE: 2.1774
+  Test RMSE - solo sensori: 69.5547
+  Test RMSE - sensori + settings: 65.3811
+  Miglioramento RMSE: 4.1736
+
+Random Forest
+  Test MAE - solo sensori: 31.3075
+  Test MAE - sensori + settings: 30.9905
+  Miglioramento MAE: 0.3170
+  Test RMSE - solo sensori: 42.6775
+  Test RMSE - sensori + settings: 42.4170
+  Miglioramento RMSE: 0.2604
+
+====================================================
+CONFRONTO DATASET E MODALITA' DI GUASTO
+====================================================
+
+FD001 e FD003: una condizione operativa.
+FD002 e FD004: sei condizioni operative.
+
+FD001/FD003 permettono di osservare il cambiamento associato alle diverse modalita' di degradazione in presenza di una sola condizione operativa.
+
+FD002/FD004 permettono di osservare lo stesso confronto in presenza di condizioni operative multiple.
+
+L'analisi delle feature piu' importanti del Random Forest e' salvata nelle rispettive cartelle dei dataset.
+Questa analisi permette di verificare se i sensori piu' importanti cambiano tra FD001/FD003 e FD002/FD004.
