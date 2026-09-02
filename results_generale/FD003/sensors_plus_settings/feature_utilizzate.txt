@@ -1,0 +1,24 @@
+Dataset: FD003
+Tipo features: Sensori + Settings
+
+Sensori utilizzati:
+- sensor2
+- sensor3
+- sensor4
+- sensor6
+- sensor7
+- sensor8
+- sensor9
+- sensor10
+- sensor11
+- sensor12
+- sensor13
+- sensor14
+- sensor15
+- sensor17
+- sensor20
+- sensor21
+
+Operating settings utilizzati:
+- setting1
+- setting2

@@ -1,0 +1,21 @@
+dataset,features,modello,fold,MAE,RMSE,n_features
+FD003,sensors_plus_settings,Baseline,1,78.51152865606288,101.31637006996152,18
+FD003,sensors_plus_settings,Linear Regression,1,49.549322950209906,66.64327747374647,18
+FD003,sensors_plus_settings,Decision Tree,1,63.12808579522461,94.01059787679563,18
+FD003,sensors_plus_settings,Random Forest,1,49.652941116956704,73.04446097510105,18
+FD003,sensors_plus_settings,Baseline,2,77.62625380098797,98.65296464737231,18
+FD003,sensors_plus_settings,Linear Regression,2,45.9700230989913,61.14761949622044,18
+FD003,sensors_plus_settings,Decision Tree,2,58.64435907804286,86.0062874444876,18
+FD003,sensors_plus_settings,Random Forest,2,41.54414476344521,63.69430381284176,18
+FD003,sensors_plus_settings,Baseline,3,77.45699135778166,98.3460795699483,18
+FD003,sensors_plus_settings,Linear Regression,3,47.20966493114844,63.90262877370126,18
+FD003,sensors_plus_settings,Decision Tree,3,57.72644561261625,83.7054665805227,18
+FD003,sensors_plus_settings,Random Forest,3,41.29992418115649,61.84023421517015,18
+FD003,sensors_plus_settings,Baseline,4,77.48376575529201,98.14812169958007,18
+FD003,sensors_plus_settings,Linear Regression,4,47.68496383766508,63.67355572249478,18
+FD003,sensors_plus_settings,Decision Tree,4,55.679959514170044,80.49374331307128,18
+FD003,sensors_plus_settings,Random Forest,4,42.366876518218625,60.90448473412073,18
+FD003,sensors_plus_settings,Baseline,5,77.34160295610516,97.7223887419221,18
+FD003,sensors_plus_settings,Linear Regression,5,47.643219658480994,64.77116308558912,18
+FD003,sensors_plus_settings,Decision Tree,5,58.23048928427012,84.5245186794119,18
+FD003,sensors_plus_settings,Random Forest,5,43.63295390214314,64.10420106527769,18
